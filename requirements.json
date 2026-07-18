@@ -1,0 +1,44 @@
+{
+  "project_name": "منصة تعليمية لتقديم دورات إلكترونية مع اختبارات وتقويم",
+  "project_type": "elearning_platform",
+  "color_palette": "blue-500 and orange-300",
+  "modules": [
+    "courses",
+    "students",
+    "instructors"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_courses",
+    "course_details",
+    "student_profile",
+    "instructor_profile"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register",
+      "list_courses"
+    ],
+    "user": [
+      "index",
+      "login",
+      "register",
+      "list_courses",
+      "course_details",
+      "student_profile"
+    ],
+    "admin": [
+      "index",
+      "login",
+      "register",
+      "list_courses",
+      "course_details",
+      "student_profile",
+      "instructor_profile"
+    ]
+  }
+}
